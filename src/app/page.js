@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <main className="max-w-[100vw] overflow-hidden">
         <div id="inicio" className="w-full flex justify-center mt-[70px] lg:mt-[120px]">
-            <section className="flex flex-col text-start lg:flex-row w-[95%] lg:w-[80%] gap-10">
+            <section className="flex flex-col justify-center text-start lg:flex-row w-[95%] lg:w-[80%] gap-10">
                 <section className="flex flex-col gap-7 lg:max-w-[45%] self-center">
 
                     <section className="flex flex-col text-center lg:text-start">
                         <h2
-                            className="text-6xl lg:text-8xl font-light"
+                            className="text-6xl lg:text-8xl 2xl:text-[140px] font-light"
                             data-aos="fade-down-right"
                             data-aos-delay="100"
                             data-aos-duration="1000"
@@ -19,7 +19,7 @@ export default function Home() {
                             Alyson R.
                         </h2>
                         <h2
-                            className="text-6xl lg:text-8xl font-light ml-[80px]"
+                            className="text-6xl lg:text-8xl 2xl:text-[140px] font-light ml-[80px]"
                             data-aos="fade-up-left"
                             data-aos-delay="300"
                             data-aos-duration="1000"
@@ -34,7 +34,7 @@ export default function Home() {
                         data-aos-delay="500"
                         data-aos-duration="800"
                     >
-                        <p className="text-xl text-hover font-bold text-[#F83132]">Desenvolvedor Web Full Stack</p>
+                        <p className="text-lg xl:text-2xl text-hover font-bold text-[#F83132]">Desenvolvedor Web Full Stack</p>
                     </section>
 
                     <section
@@ -50,7 +50,7 @@ export default function Home() {
                             Aqui é onde mostro como transformo desafios em soluções reais.
                         </p>
                         <span className="font-bold text-xl text-[#270065] mb-5">Seja bem-vindo!</span>
-                        <button onClick={() => window.open('/curriculo.pdf', '_blank')} className="flex flex-row self-center items-center gap-2 bg-[#F83132] lg:self-start cursor-pointer py-3 hover:shadow-xl px-8 text-white font-bold rounded-xl transition-transform duration-300 hover:scale-110">
+                        <button onClick={() => window.open('/curriculo.pdf', '_blank')} className="flex flex-row self-center shadow-lg items-center gap-2 bg-[#F83132] lg:self-start cursor-pointer py-[14px] hover:shadow-xl px-[50px] text-white font-bold rounded-xl transition-transform duration-300 hover:scale-110">
                             Currículo <ArrowRightIcon className="w-5 h-5 scale-125" />
                         </button>
                     </section>
@@ -58,12 +58,12 @@ export default function Home() {
                 </section>
 
                 <section
-                    className="hidden lg:flex flex-col gap-7 md:max-w-[45%]"
+                    className="hidden lg:flex relative flex-col gap-7 w-[45%]"
                     data-aos="fade-left"
                     data-aos-delay="1100"
                     data-aos-duration="1200"
                 >
-                    <Image src="/alyson.png" alt="desenho" width={600} height={600}/>
+                    <Image src="/img01.svg" alt="desenho" width={600} height={400} style={{ width: "100%", height: "auto" }}/>
                 </section>
             </section>
         </div>
