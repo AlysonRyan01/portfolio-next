@@ -24,7 +24,7 @@ export default function Layout({ children }) {
     };
 
     useEffect(() => {
-        AOS.init({ duration: 1000, once: true }); // inicializa o AOS
+        AOS.init({ duration: 1000, once: true });
     }, []);
 
     return (
@@ -56,7 +56,7 @@ export default function Layout({ children }) {
                 <ul className="space-y-3">
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/alyson-ryan-ullirsch"
+                            href="https://www.linkedin.com/in/alyson-ullirsch"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="p-2 rounded-full inline-block transition-transform duration-300 hover:scale-140"

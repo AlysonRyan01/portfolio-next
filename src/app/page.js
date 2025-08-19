@@ -49,20 +49,12 @@ export default function Home() {
                         <p className="text-base lg:text-lg text-[#585a5b]">
                             Aqui é onde mostro como transformo desafios em soluções reais.
                         </p>
-                        <span className="font-bold text-xl text-[#270065]">Seja bem-vindo!</span>
-                    </section>
-
-                    <section
-                        className="flex flex-row w-full justify-center lg:justify-start"
-                        data-aos="flip-left"
-                        data-aos-delay="900"
-                        data-aos-duration="900"
-                        data-aos-once="true"
-                    >
-                        <button onClick={() => window.open('/AlysonCurriculo.pdf', '_blank')} className="flex flex-row items-center gap-2 bg-[#F83132] self-center cursor-pointer py-3 hover:shadow-xl px-8 text-white font-bold rounded-xl transition-transform duration-300 hover:scale-110">
+                        <span className="font-bold text-xl text-[#270065] mb-5">Seja bem-vindo!</span>
+                        <button onClick={() => window.open('/curriculo.pdf', '_blank')} className="flex flex-row self-center items-center gap-2 bg-[#F83132] lg:self-start cursor-pointer py-3 hover:shadow-xl px-8 text-white font-bold rounded-xl transition-transform duration-300 hover:scale-110">
                             Currículo <ArrowRightIcon className="w-5 h-5 scale-125" />
                         </button>
                     </section>
+
                 </section>
 
                 <section
@@ -335,7 +327,7 @@ export default function Home() {
                 </h2>
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-8">
-                    <a href="https://www.linkedin.com/in/alyson-ryan-ullirsch" target="_blank"
+                    <a href="https://www.linkedin.com/in/alyson-ullirsch" target="_blank"
                     className="group flex flex-col items-center p-4 md:p-6 rounded-xl shadow-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
                     data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                         <div className=" p-4 rounded-full mb-3">
